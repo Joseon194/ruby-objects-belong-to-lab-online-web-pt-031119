@@ -7,7 +7,4 @@ class Author
   end
   
 
-song.author.name
-end
-
 end
