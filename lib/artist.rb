@@ -2,11 +2,7 @@ class Artist
   
   attr_accessor :name
   
-  def save
-    self.class.all << self
-  end
-  
-  def Artist.new(name)
+  def initialize(name)
   @name = name
 end
 end
